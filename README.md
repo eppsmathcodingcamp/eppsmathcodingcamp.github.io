@@ -1,4 +1,4 @@
-# EPPS Math Coding Camp
+# EPPS Math Coding Bootcamp
 
 This repository contains the main website for the EPPS Math Coding Bootcamp.
 
