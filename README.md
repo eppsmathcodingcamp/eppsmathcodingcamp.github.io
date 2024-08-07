@@ -1,6 +1,6 @@
 # EPPS Math Coding Camp
 
-This repository contains the main website for the EPPS Math Coding Camp.
+This repository contains the main website for the EPPS Math Coding Bootcamp.
 
 Visit our website: [https://eppsmathcodingcamp.github.io](https://eppsmathcodingcamp.github.io)
 
