@@ -1,0 +1,118 @@
+---
+title: "About Us - EPPS Math & Coding Camp"
+format: 
+  html:
+    css: styles.css
+---
+<header>
+  <a href="index.html" class="home-link">Home</a>
+</header>
+
+<style>
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.team-member {
+    text-align: center;
+    background-color: var(--utd-light-gray);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.team-member h3 {
+    color: var(--utd-green);
+    margin-bottom: 5px;
+}
+.team-member p {
+    margin: 5px 0;
+}
+.team-member a {
+    color: var(--utd-orange);
+    text-decoration: none;
+}
+.team-member a:hover {
+    text-decoration: underline;
+}
+.mastermind {
+    margin-top: 40px;
+    text-align: center;
+}
+.mastermind img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.home-link {
+    display: inline-block;
+    background-color: var(--utd-orange);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 20px;
+}
+.home-link:hover {
+    background-color: #ff8c1a;
+    transform: scale(1.05);
+}
+</style>
+
+## About Us
+
+Meet the team behind the EPPS Math & Coding Camp:
+
+<div class="team-member">
+  <h3>Prajyna Paramita Barua</h3>
+  <p>PhD Student, Economics</p>
+</div>
+
+<div class="team-member">
+  <img src="picture_dohyo_cc.jpg" alt="Dohyo Jeong">
+  <h3>Dohyo Jeong</h3>
+  <p>PhD student, Public Policy & Political Economy</p>
+  <a href="https://dohyojeong.github.io/" target="_blank">Website</a>
+</div>
+
+<div class="team-member">
+  <img src="Headshot-Azharul.jpg" alt="Azharul Islam">
+  <h3>Azharul Islam</h3>
+  <p>PhD student, Economics</p>
+  <a href="https://epps.utdallas.edu/phd-students/azharul-islam/" target="_blank">Website</a>
+</div>
+
+<div class="team-member">
+  <img src="headshot.jpg" alt="Shreyas Meher">
+  <h3>Shreyas Meher</h3>
+  <p>PhD student, Public Policy & Political Economy</p>
+  <a href="https://shreyasmeher.com/" target="_blank">Website</a>
+</div>
+
+<div class="team-member">
+  <h3>Xingyuan Zhao</h3>
+  <p>PhD Student, Political Science</p>
+</div>
+
+<div class="mastermind">
+  <h2>Program Director</h2>
+  
+  <img src="ho-karl-800-2015-12-medium.jpg" alt="Dr. Karl Ho">
+  
+  <h3>Dr. Karl Ho</h3>
+  <p>The visionary behind the EPPS Math & Coding Camp</p>
+  
+  <a href="https://karlho.com/" target="_blank">Website</a>
+</div>
