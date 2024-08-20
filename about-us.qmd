@@ -4,115 +4,54 @@ format:
   html:
     css: styles.css
 ---
+
 <header>
-  <a href="index.html" class="home-link">Home</a>
+  <a href="index.html" class="main-site-link">Back to Main Page</a>
 </header>
 
-<style>
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-.team-member {
-    text-align: center;
-    background-color: var(--utd-light-gray);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-.team-member h3 {
-    color: var(--utd-green);
-    margin-bottom: 5px;
-}
-.team-member p {
-    margin: 5px 0;
-}
-.team-member a {
-    color: var(--utd-orange);
-    text-decoration: none;
-}
-.team-member a:hover {
-    text-decoration: underline;
-}
-.mastermind {
-    margin-top: 40px;
-    text-align: center;
-}
-.mastermind img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-.home-link {
-    display: inline-block;
-    background-color: var(--utd-orange);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s;
-    margin-bottom: 20px;
-}
-.home-link:hover {
-    background-color: #ff8c1a;
-    transform: scale(1.05);
-}
-</style>
-
-## About Us
-
-Meet the team behind the EPPS Math & Coding Camp:
-
-<div class="team-member">
-  <h3>Prajyna Paramita Barua</h3>
+<main>
+  <h1>About Us</h1>
+  <h2>Meet the team behind the EPPS Math & Coding Camp:</h2>
+  
+  <h2>Prajyna Paramita Barua</h2>
   <p>PhD Student, Economics</p>
-</div>
-
-<div class="team-member">
-  <img src="picture_dohyo_cc.jpg" alt="Dohyo Jeong">
-  <h3>Dohyo Jeong</h3>
+  <p>Prajyna Paramita Barua is currently pursuing her fifth year of Ph.D. in Economics from the University of Texas, Dallas. Her research interests lie in applied macroeconomics and labor economics, with a particular focus on their implications for monetary policy. Prajyna's current research delves into the dynamics of the U.S. labor market from a macroeconomic perspective. Specifically, she is examining the trade-off between vacancies and unemployment in the U.S. labor market under time variation, and assessing labor market efficiency and inefficiencies through the lens of the unemployment gap. In addition to her research, Prajyna is also engaged in teaching Principles of Macroeconomics at the University of Texas, Dallas.</p>
+  
+  <h2>Dohyo Jeong</h2>
   <p>PhD student, Public Policy & Political Economy</p>
-  <a href="https://dohyojeong.github.io/" target="_blank">Website</a>
-</div>
-
-<div class="team-member">
-  <img src="Headshot-Azharul.jpg" alt="Azharul Islam">
-  <h3>Azharul Islam</h3>
+  <p><a href="https://dohyojeong.github.io/" target="_blank">Website</a></p>
+  <img src="picture_dohyo_cc.jpg" alt="Dohyo Jeong" style="max-width: 200px; border-radius: 50%;">
+  <p>Dohyo Jeong's research focuses on identifying and addressing regional disparities in resource allocation within global public health systems, emphasizing public health crisis management, public health services planning, and the social impacts of epidemiology. He has researched geographic patterns of infectious diseases such as tuberculosis and access to treatment, revealing regional disparities that affect treatment outcomes. His work on emergency medical services (EMS) highlights the importance of demand forecasting and resource optimization using spatial-temporal machine learning techniques. Dohyo also explores the social impacts of public health crises, including the distribution of COVID-19 treatments, the influence of pandemics on education and crime patterns, and the role of social media in managing public hysteria. His future research aims to investigate disparities from regional and individual perspectives, utilizing causal inference, machine learning, and spatial statistics to enhance public health policy and reduce health disparities. At UT Dallas, Dohyo Jeong served as an instructor for the EPPS Math and Coding Camp (2024), taught the EPPS 2302 Methods of Quantitative Analysis in the Social and Policy Sciences course, and delivered various guest lectures.</p>
+  
+  
+  <h2>Azharul Islam</h2>
   <p>PhD student, Economics</p>
-  <a href="https://epps.utdallas.edu/phd-students/azharul-islam/" target="_blank">Website</a>
-</div>
+  <p><a href="https://epps.utdallas.edu/phd-students/azharul-islam/" target="_blank">Website</a></p>
+  <img src="Headshot-Azharul.jpg" alt="Azharul Islam" style="max-width: 200px; border-radius: 50%;">
+  <p>Azharul Islam is currently pursuing a Ph.D. in Economics at the School of Economic, Political, and Policy Sciences at UT Dallas. Prior to this, he earned a Master of Arts in Economics from Central Michigan University and Virginia Tech. Azharul's research focuses on analyzing the impact of consumer sentiment on macroeconomic variables in the US, including GDP growth, unemployment, inflation expectations, and consumer price indices. He is also working on another independent project and three co-authored projects, all of which revolve around the common theme of inflation expectations within the context of the US macroeconomy. In addition to his research, Azharul teaches economics courses at UT Dallas as an instructor, where he relates economic theories to research findings to illustrate real economic phenomena. He is passionate about exploring the intersection of economics and policy, and aspires to make meaningful contributions to the macroeconomic field as an academic. Originally from Dhaka, Bangladesh, Azharul received his undergraduate degree in economics. Despite being physically separated by distance, he enjoys staying connected with his family members and relatives.</p>
 
-<div class="team-member">
-  <img src="headshot.jpg" alt="Shreyas Meher">
-  <h3>Shreyas Meher</h3>
+  <h2>Shreyas Meher</h2>
   <p>PhD student, Public Policy & Political Economy</p>
-  <a href="https://shreyasmeher.com/" target="_blank">Website</a>
-</div>
+  <p><a href="https://shreyasmeher.com/" target="_blank">Website</a></p>
+  <img src="headshot.jpg" alt="Shreyas Meher" style="max-width: 200px; border-radius: 50%;">
+  <p>Shreyas Meher is a PhD candidate in Public Policy & Political Economy at the University of Texas at Dallas, specializing in the intersection of digital economics, political analysis, and computational linguistics. His research primarily focuses on internet censorship, cyber law and policy, and content moderation in democratic contexts. Shreyas employs advanced machine learning techniques, including Large Language Models, to analyze political and social event data. As a key contributor to an NSF-funded project, Shreyas works on applying cutting-edge ML technologies like ConfliBERT to revolutionize event data extraction in political science. His dissertation explores the nuanced approaches of democracies to internet control, the politics of internet blackouts in India, and the global impact of major tech companies' decisions in authoritarian markets. Shreyas's work spans comparative politics, digital governance, and the application of computational methods to policy questions. He has presented his research at major conferences like APSA and MPSA, and has papers under review in notable journals. With a background in economics and energy management, Shreyas brings a multidisciplinary approach to studying the complex interplay between politics, economics, and digital spaces.
+https://www.shreyasmeher.com</p>
 
-<div class="team-member">
-  <h3>Xingyuan Zhao</h3>
+
+
+  <h2>Xingyuan Zhao</h2>
   <p>PhD Student, Political Science</p>
-</div>
+  <p><a href="https://xing-yuan-zhao.github.io/bio/" target="_blank">Website</a></p>
+  <img src="photo1_mid.jpeg" alt="Xingyuan Zhao" style="max-width: 200px; border-radius: 50%;">
+  <p>Xingyuan Zhao is a Ph.D. student in Political Science at the University of Texas at Dallas. His research focuses on leveraging Natural Language Processing (NLP) techniques to convert political text information into structured knowledge and derive meaningful insights. By leveraging cutting-edge NLP algorithms and domain expertise in political science, Xingyuan aims to uncover hidden patterns and trends in political discourse that can inform policy-making and enhance our understanding of complex political phenomena. His ultimate goal is to bridge the gap between advanced NLP technologies and real-world political applications, contributing to more data-driven and evidence-based decision-making in the public sector.</p>
 
-<div class="mastermind">
-  <h2>Program Director</h2>
-  
-  <img src="ho-karl-800-2015-12-medium.jpg" alt="Dr. Karl Ho">
-  
-  <h3>Dr. Karl Ho</h3>
-  <p>The visionary behind the EPPS Math & Coding Camp</p>
-  
-  <a href="https://karlho.com/" target="_blank">Website</a>
-</div>
+  <h2>Program Director: Dr. Karl Ho</h2>
+  <p><a href="https://karlho.com/" target="_blank">Website</a></p>
+  <img src="ho-karl-800-2015-12-medium.jpg" alt="Dr. Karl Ho" style="max-width: 200px; border-radius: 50%;">
+  <p>Karl Ho is a political scientist working at the intersection of data science and social science. His research interests span both domains of data analytics and political studies, with a regional focus on East Asia. The unifying theme of Karl's research is to use data science methods to explain and prescribe social and political problems. Areas of research topics include democratization, political economy, public policy, and human rights, aiming at building public goods and improving policies, governance, and representation. As the Director of Graduate Studies in the University of Texas at Dallas (UTD) Political Science program, Karl oversees the graduate studies curriculum and is responsible for guiding students through their academic journey. He is also the founding faculty member of the UTD Social Data Analytics and Research Master’s program, where he leads a team of researchers in exploring the intersection of data science and social science. Additionally, Karl hosts the Data Analytics Colloquium, a joint project with the National Chung Hsing University, which brings together experts from various fields to share their research findings and insights on the applications of data analytics.</p>
+</main>
+
+<footer>
+  <p>&copy; 2024 Math Coding Camp - EPPS</p>
+  <p>Made with ❤️ by <a href="https://github.com/shreyasmeher" target="_blank" rel="noopener noreferrer">Shreyas Meher</a></p>
+</footer>

@@ -97,4 +97,11 @@ footer a:hover {
         max-width: 250px;
     }
 }
+main img {
+    display: block;
+    margin: 20px 0;
+}
 
+main h2 {
+    margin-top: 40px;
+}
